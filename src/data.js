@@ -64,58 +64,48 @@ const work = [
 
 const stack = [
   {
-    name: 'Front End',
+    name: 'Software Engineer at Xepelin, Financial Services',
+    items: [
+      { icon: icon.SiTypescript, name: 'Typescript' },
+      { icon: icon.SiReact, name: 'React' },
+      { icon: icon.SiNodedotjs, name: 'Node' },
+      { icon: icon.SiSequelize, name: 'Sequelize ORM' },
+      { icon: icon.SiJest, name: 'Jest' },
+      { icon: icon.SiReactquery, name: 'React Query' },
+      { icon: icon.SiStyledcomponents, name: 'Styled Components' },
+    ],
+  },
+  {
+    name: 'Full Stack at MG Group, Financial Services',
+    items: [
+      { icon: icon.SiDotnet, name: '.NET CORE 3.1' },
+      { icon: icon.SiCsharp, name: 'C#' },
+      { icon: icon.SiNodedotjs, name: 'Node' },
+      { icon: icon.SiRedux, name: 'React Redux' },
+      { icon: icon.SiAmazonaws, name: 'AWS Services' },
+      { icon: icon.SiServerless, name: 'Serverless' },
+      { icon: icon.SiGithubactions, name: 'GitHub Actions' },
+    ],
+  },
+  {
+    name: 'Backend Developer at Folcode, Software Factory',
+    items: [
+      { icon: icon.SiPhp, name: 'PHP - Laravel' },
+      { icon: icon.SiNodedotjs, name: 'Node - Express' },
+      { icon: icon.SiAmazonaws, name: 'AWS Services' },
+      { icon: icon.SiAmazonec2, name: 'AWS EC2' },
+      { icon: icon.SiAmazons3, name: 'AWS S3' },
+    ],
+  },
+  {
+    name: 'Web Developer at InAltum, Psychological Clinic',
     items: [
       { icon: icon.SiHtml5, name: 'HTML' },
       { icon: icon.SiCss3, name: 'CSS' },
-      { icon: icon.SiJavascript, name: 'Javascript' },
-      { icon: icon.SiTypescript, name: 'Typescript' },
-      { icon: icon.SiReact, name: 'React' },
-      { icon: icon.SiRedux, name: 'Redux' },
-      { icon: icon.SiMui, name: 'Material UI' },
-      // { icon: icon.SiReactquery, name: 'React Query' }, // Agregado
-      // { icon: icon.SiStyledcomponents, name: 'Styled Components' }, // Agregado
-      // SiStyledcomponents y SiReactquery no son iconos estándar de SimpleIcons,
-      // necesitas agregar los correspondientes o utilizar placeholders.
+      { icon: icon.SiJavascript, name: 'JavaScript' },
+      { icon: icon.SiSass, name: 'SASS' },
     ],
   },
-  {
-    name: 'Back End',
-    items: [
-      { icon: icon.SiNodedotjs, name: 'NodeJS' },
-      { icon: icon.SiExpress, name: 'Express' }, // Agregado
-      { icon: icon.SiDotnet, name: '.NET' }, // Agregado
-      { icon: icon.SiCsharp, name: 'C#' }, // Agregado
-      { icon: icon.SiPhp, name: 'PHP' }, // Agregado
-      { icon: icon.SiLaravel, name: 'Laravel' }, // Agregado
-      { icon: icon.SiSequelize, name: 'Sequelize' },
-    ],
-  },
-  {
-    name: 'Testing',
-    items: [
-      { icon: icon.SiJest, name: 'Jest' }, // Agregado
-    ],
-  },
-  // {
-  //   name: 'CI/CD',
-  //   items: [
-  //     // Necesitarás iconos o placeholders para SAM y GitHub Actions
-  //   ],
-  // },
-  // {
-  //   name: 'Cloud Services',
-  //   items: [
-  //     { icon: icon.SiAmazonaws, name: 'AWS' }, // Agregado
-  //     // Podrías desglosar AWS en servicios específicos como Lambda, EC2, S3, etc.
-  //   ],
-  // },
-  // {
-  //   name: 'Databases',
-  //   items: [
-  //     // Agrega aquí bases de datos como DocumentDB si encuentras un ícono apropiado
-  //   ],
-  // },
 ]
 
 const contact = {

@@ -1,8 +1,8 @@
 import { createContext, useState } from 'react'
 
 const ThemeContext = createContext({
-  theme: 'light', // default theme
-  switchTheme: () => {}, // noop function
+  theme: 'light',
+  switchTheme: () => {},
 })
 
 const ThemeProvider = ({ children }) => {
