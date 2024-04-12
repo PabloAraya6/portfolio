@@ -61,7 +61,6 @@
     margin: auto;
     position: relative;
     background: hsla(0, 0%, 96%, 0.76);
-
 }
 
 .timeline-block {
@@ -77,8 +76,8 @@
     content: '';
     position: absolute;
     left: -7px; /* Ajusta según sea necesario para alinear con la línea */
-    top: 50%; /* Centra el punto verticalmente */
-    transform: translateY(-50%); /* Asegura que el centro del punto esté en el medio */
+    top: 35px; /* Centra el punto verticalmente */
+    /* transform: translateY(-50%); Asegura que el centro del punto esté en el medio */
     width: 10px;
     height: 10px;
     background-color: white;
