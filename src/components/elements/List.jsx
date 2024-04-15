@@ -17,7 +17,7 @@ const List = ({ list }) => {
           <span>{list.startDate}</span>
         </p>
         <h2>{list.name.split(' at ')[0]}</h2>
-        <span className='timeline-date'>{list.name.split(' at ')[1]}</span>
+        <p className='timeline-date'>{list.name.split(' at ')[1]}</p>
         <div id='details' className={`details${visibleDetail ? ' open' : ''}`}>
           {list.items.map((item, idx) => (
             <>
@@ -25,7 +25,6 @@ const List = ({ list }) => {
                 <Icon icon={item.icon} />
                 &nbsp;{item.name}
               </span>
-              <br />
             </>
           ))}
         </div>
