@@ -16,10 +16,14 @@ const List = ({ list }) => {
         <span className='timeline-date'>{list.name.split(' at ')[1]}</span>
         <div id='details' className={`details${visibleDetail ? ' open' : ''}`}>
           {list.items.map((item, idx) => (
-            <p key={idx}>
-              <Icon icon={item.icon} />
-              &nbsp;{item.name}
-            </p>
+            <>
+              <span key={idx} className='item'>
+                <Icon icon={item.icon} />
+                &nbsp;
+                {item.name}
+              </span>
+              <br />
+            </>
           ))}
         </div>
       </div>
