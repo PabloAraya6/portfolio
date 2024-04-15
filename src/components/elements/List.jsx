@@ -2,33 +2,23 @@ import React, { useState } from 'react'
 import Icon from '/src/components/elements/Icon.jsx'
 import '/src/stylesheets/elements/List.css'
 
-const List = ({ list, key }) => {
-  const [visibleDetail, setVisibleDetail] = useState('')
+const List = ({ list }) => {
+  const [visibleDetail, setVisibleDetail] = useState(false)
 
-  const toggleDetails = (id) => {
-    setVisibleDetail(visibleDetail === id ? '' : id)
+  const toggleDetails = () => {
+    setVisibleDetail(!visibleDetail)
   }
 
   return (
-    <div key={key} className='timeline-container'>
-      <div
-        className='timeline-block'
-        onClick={() => toggleDetails(`details-${key}`)}
-      >
+    <div className='timeline-container'>
+      <div className='timeline-block' onClick={toggleDetails}>
         <h2>{list.name.split(' at ')[0]}</h2>
         <span className='timeline-date'>{list.name.split(' at ')[1]}</span>
-        <div
-          id={`details-${key}`}
-          className='details'
-          style={{
-            display: visibleDetail === `details-${key}` ? 'block' : 'none',
-          }}
-        >
+        <div id='details' className={`details${visibleDetail ? ' open' : ''}`}>
           {list.items.map((item, idx) => (
             <p key={idx}>
               <Icon icon={item.icon} />
-              &nbsp;
-              {item.name}
+              &nbsp;{item.name}
             </p>
           ))}
         </div>
