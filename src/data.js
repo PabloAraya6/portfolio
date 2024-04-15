@@ -65,6 +65,8 @@ const work = [
 const stack = [
   {
     name: 'Software Engineer at Xepelin, Financial Services',
+    startDate: 'Jan 2022',
+    endDate: 'Present',
     items: [
       { icon: icon.SiTypescript, name: 'Typescript' },
       { icon: icon.SiReact, name: 'React' },
@@ -77,6 +79,8 @@ const stack = [
   },
   {
     name: 'Full Stack at MG Group, Financial Services',
+    startDate: 'Sep 2021',
+    endDate: 'Jan 2022',
     items: [
       { icon: icon.SiDotnet, name: '.NET CORE 3.1' },
       { icon: icon.SiCsharp, name: 'C#' },
@@ -89,6 +93,8 @@ const stack = [
   },
   {
     name: 'Backend Developer at Folcode, Software Factory',
+    startDate: 'Aug 2020',
+    endDate: 'Aug 2021',
     items: [
       { icon: icon.SiPhp, name: 'PHP - Laravel' },
       { icon: icon.SiNodedotjs, name: 'Node - Express' },
@@ -99,6 +105,8 @@ const stack = [
   },
   {
     name: 'Web Developer at InAltum, Psychological Clinic',
+    startDate: 'Jan 2020',
+    endDate: 'Oct 2020',
     items: [
       { icon: icon.SiHtml5, name: 'HTML' },
       { icon: icon.SiCss3, name: 'CSS' },

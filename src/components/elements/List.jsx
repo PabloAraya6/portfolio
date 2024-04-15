@@ -12,6 +12,10 @@ const List = ({ list }) => {
   return (
     <div className='timeline-container'>
       <div className='timeline-block' onClick={toggleDetails}>
+        <div className='timeline-dates'>
+          <span>{list.endDate}</span> <br />
+          <span>{list.startDate}</span>
+        </div>
         <h2>{list.name.split(' at ')[0]}</h2>
         <span className='timeline-date'>{list.name.split(' at ')[1]}</span>
         <div id='details' className={`details${visibleDetail ? ' open' : ''}`}>
@@ -19,8 +23,7 @@ const List = ({ list }) => {
             <>
               <span key={idx} className='item'>
                 <Icon icon={item.icon} />
-                &nbsp;
-                {item.name}
+                &nbsp;{item.name}
               </span>
               <br />
             </>
