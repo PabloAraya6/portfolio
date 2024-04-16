@@ -1,25 +1,24 @@
 import * as icon from 'react-icons/si'
 
 const social = [
-  { icon: icon.SiGithub, link: 'https://github.com' },
-  { icon: icon.SiCodepen, link: 'https://www.medium.com/' },
-  { icon: icon.SiX, link: 'https://www.twitter.com/' },
-  { icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
+  { icon: icon.SiGithub, link: 'https://github.com/PabloAraya6' },
+  { icon: icon.SiLinkedin, link: 'https://www.linkedin.com/PabloAraya6' },
+  { icon: icon.SiGmail, link: 'mailto:arayap812@email.com' },
 ]
 
 const work = [
   {
-    name: 'Todo app',
+    name: 'Meteor Effect',
     description:
-      'Phasellus metus mi, scelerisque eu volutpat non, posuere et massa. Nunc hendrerit, augue non fringilla mattis.',
+      'An engaging web-based animation simulating meteor showers, built with TypeScript, ReactJS, and Tailwind CSS, and deployed on Vercel.',
     stack: [
-      { icon: icon.SiHtml5, name: 'HTML' },
-      { icon: icon.SiCss3, name: 'CSS' },
-      { icon: icon.SiJavascript, name: 'Javascript' },
+      { icon: icon.SiTypescript, name: 'Typescript' },
       { icon: icon.SiReact, name: 'ReactJS' },
+      { icon: icon.SiTailwindcss, name: 'Tailwind CSS' },
+      { icon: icon.SiVercel, name: 'Vercel' },
     ],
-    linkProject: 'https://example.com',
-    linkGithub: 'https://github.com',
+    linkProject: 'https://meteor-effect.vercel.app/',
+    linkGithub: 'https://github.com/PabloAraya6/meteor-effect',
   },
   {
     name: 'Pokedex',
@@ -67,7 +66,7 @@ const stack = [
     startDate: 'Jan 2022',
     endDate: 'Present',
     description: [
-      'Developed robust financial applications using React and TypeScript within a monolithic architecture.',
+      'Developed robust financial applications using React and TypeScript',
       'Managed application state using Redux, react-query, and zustand.',
       'Contributed to a custom design system using styled-components.',
       'Integrated Sequelize ORM for relational database interactions.',
@@ -77,9 +76,12 @@ const stack = [
       { icon: icon.SiTypescript, name: 'Typescript' },
       { icon: icon.SiReact, name: 'React' },
       { icon: icon.SiNodedotjs, name: 'Node' },
+      { icon: icon.SiNestjs, name: 'NestJS' },
       { icon: icon.SiSequelize, name: 'Sequelize ORM' },
       { icon: icon.SiJest, name: 'Jest' },
+      { icon: icon.SiRedis, name: 'Redis' },
       { icon: icon.SiReactquery, name: 'React Query' },
+      { icon: icon.SiAmazonaws, name: 'AWS Services' },
       { icon: icon.SiStyledcomponents, name: 'Styled Components' },
     ],
   },
@@ -97,6 +99,7 @@ const stack = [
       { icon: icon.SiCsharp, name: 'C#' },
       { icon: icon.SiNodedotjs, name: 'Node' },
       { icon: icon.SiRedux, name: 'React Redux' },
+      { icon: icon.SiMongodb, name: 'MongoDB' },
       { icon: icon.SiAmazonaws, name: 'AWS Services' },
       { icon: icon.SiServerless, name: 'Serverless' },
       { icon: icon.SiGithubactions, name: 'GitHub Actions' },
@@ -113,6 +116,8 @@ const stack = [
     items: [
       { icon: icon.SiPhp, name: 'PHP - Laravel' },
       { icon: icon.SiNodedotjs, name: 'Node - Express' },
+      { icon: icon.SiMysql, name: 'MySQL' },
+      { icon: icon.SiDocker, name: 'Docker' },
       { icon: icon.SiAmazonaws, name: 'AWS Services' },
       { icon: icon.SiAmazonec2, name: 'AWS EC2' },
       { icon: icon.SiAmazons3, name: 'AWS S3' },
@@ -123,13 +128,14 @@ const stack = [
     startDate: 'Jan 2020',
     endDate: 'Oct 2020',
     description: [
-      'Developed interactive psychological assessment tools using JavaScript, with data visualization in HTML and CSS (SASS).',
+      'Developed interactive psychological assessment tools using JavaScript, with data visualization in HTML and CSS (SASS). Using Google App Scripts',
     ],
     items: [
       { icon: icon.SiHtml5, name: 'HTML' },
       { icon: icon.SiCss3, name: 'CSS' },
       { icon: icon.SiJavascript, name: 'JavaScript' },
       { icon: icon.SiSass, name: 'SASS' },
+      { icon: icon.SiGoogleappsscript, name: 'Google App Script' },
     ],
   },
 ]

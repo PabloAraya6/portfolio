@@ -28,8 +28,12 @@ const Nav = () => {
           <a className='Nav-link' href='#work' onClick={() => setMenu(false)}>
             Work.
           </a>
-          <a className='Nav-link' href='#stack' onClick={() => setMenu(false)}>
-            Stack.
+          <a
+            className='Nav-link'
+            href='#experience'
+            onClick={() => setMenu(false)}
+          >
+            Experience.
           </a>
           <a
             className='Nav-link'
