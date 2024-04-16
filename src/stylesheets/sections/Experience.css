@@ -1,0 +1,29 @@
+.Experience .container-sm {
+    text-align: center;
+}
+
+.Experience-h2 {
+    margin-bottom: var(--margin-1);
+}
+
+.Experience-h3 {
+    margin-bottom: var(--margin-3);
+}
+
+.Experience-description {
+    margin: 0 auto var(--margin-3) auto;
+    max-width: 540px;
+}
+
+.Experience-time span {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--accent);
+    margin: 0 5px;
+}
+
+.Experience-time {
+    font-size: 18px;
+    color: var(--text-color);
+}

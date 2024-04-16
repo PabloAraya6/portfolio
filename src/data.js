@@ -61,12 +61,18 @@ const work = [
     linkGithub: 'https://github.com',
   },
 ]
-
 const stack = [
   {
     name: 'Software Engineer at Xepelin, Financial Services',
     startDate: 'Jan 2022',
     endDate: 'Present',
+    description: [
+      'Developed robust financial applications using React and TypeScript within a monolithic architecture.',
+      'Managed application state using Redux, react-query, and zustand.',
+      'Contributed to a custom design system using styled-components.',
+      'Integrated Sequelize ORM for relational database interactions.',
+      'Conducted unit and integration testing using Jest.',
+    ],
     items: [
       { icon: icon.SiTypescript, name: 'Typescript' },
       { icon: icon.SiReact, name: 'React' },
@@ -78,9 +84,14 @@ const stack = [
     ],
   },
   {
-    name: 'Full Stack at MG Group, Financial Services',
+    name: 'Full Stack Developer at MG Group, Financial Services',
     startDate: 'Sep 2021',
     endDate: 'Jan 2022',
+    description: [
+      'Engineered microservices-based solutions with serverless architecture using .NET Core 3.1, Node.js with TypeScript, and React with Redux.',
+      'Implemented CI/CD pipelines using SAM and GitHub Actions.',
+      'Managed AWS cloud services including Lambda, Step-functions, SNS-SQS, and DocumentDB.',
+    ],
     items: [
       { icon: icon.SiDotnet, name: '.NET CORE 3.1' },
       { icon: icon.SiCsharp, name: 'C#' },
@@ -95,6 +106,10 @@ const stack = [
     name: 'Backend Developer at Folcode, Software Factory',
     startDate: 'Aug 2020',
     endDate: 'Aug 2021',
+    description: [
+      'Developed backend systems using PHP with Laravel, and Node.js with Express, focusing on both Eloquent and Sequelize ORMs.',
+      'Deployed and managed servers on AWS EC2 and handled file storage solutions using AWS S3.',
+    ],
     items: [
       { icon: icon.SiPhp, name: 'PHP - Laravel' },
       { icon: icon.SiNodedotjs, name: 'Node - Express' },
@@ -107,6 +122,9 @@ const stack = [
     name: 'Web Developer at InAltum, Psychological Clinic',
     startDate: 'Jan 2020',
     endDate: 'Oct 2020',
+    description: [
+      'Developed interactive psychological assessment tools using JavaScript, with data visualization in HTML and CSS (SASS).',
+    ],
     items: [
       { icon: icon.SiHtml5, name: 'HTML' },
       { icon: icon.SiCss3, name: 'CSS' },
@@ -117,9 +135,8 @@ const stack = [
 ]
 
 const contact = {
-  description:
-    'Tenetur laudantium? Aliquid ipsum perferendis blanditiis non. Adipisci eos numquam reiciendis, rerum, quo similique reprehenderit. Adipisci eos numquam reiciendis',
-  email: 'example@email.com',
+  description: `Feel free to reach out for any queries or collaborations. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.`,
+  email: 'arayap812@email.com',
 }
 
 export { social, work, stack, contact }

@@ -9,6 +9,7 @@ import Footer from '/src/components/sections/Footer'
 import ScrollToTop from '/src/components/elements/ScrollToTop'
 import '/src/App.css'
 import '/src/stylesheets/theme/theme.css'
+import Experience from './components/sections/Experience'
 
 function App() {
   const { theme } = useContext(ThemeContext)
@@ -19,6 +20,7 @@ function App() {
       <Home />
       <Work />
       <Stack />
+      <Experience />
       <Contact />
       <Footer />
       <ScrollToTop />

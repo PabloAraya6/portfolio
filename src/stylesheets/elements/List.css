@@ -8,6 +8,10 @@
 	border-radius: 8px;
 
   }
+
+  .icons {
+	padding-top: 16px;
+  }
   
   .details {
 	max-height: 0;
@@ -69,5 +73,9 @@
 	top: 10px;
 	color: var(--accent);
 	font-size: 0.85em;
+  }
+
+  .timeline-date {
+	font-weight: 500;
   }
   
